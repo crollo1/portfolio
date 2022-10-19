@@ -11,17 +11,17 @@
     function PageTransitions(){
     
         // active class button click 
-        for(let i = 0; i < sectBtn.length; i++){
+        // for(let i = 0; i < sectBtn.length; i++){
 
-            sectBtn[i].addEventListener('click', function(){
+        //     sectBtn[i].addEventListener('click', function(){
                 
-                let currentBtn = document.querySelectorAll('.active-btn');
-                currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
-                this.className += ' active-btn';
+        //         let currentBtn = document.querySelectorAll('.active-btn');
+        //         currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
+        //         this.className += ' active-btn';
     
-            })
+        //     })
         
-        }
+        // }
 
         // sections Active class
         allSections.addEventListener('click', (e) =>{

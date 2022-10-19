@@ -9,8 +9,16 @@ html {
     scroll-behavior: smooth;
 }
 
+h3 {
+    margin-top:0;
+}
+
 #top-nav {
     display: inline-block !important;
+}
+
+#top-nav button:hover {
+    background-color: #c1837c;
 }
 
 #top-nav button {
@@ -34,7 +42,19 @@ html {
     justify-content: center;
     transform: translateY(-50%);
     opacity: 1 !important;
+}
 
+.name {
+    font-size: 2.5rem;
+}
+
+#get-to-know-me {
+    background-color: #c1837c;
+    opacity: 1;
+    width: 30%;
+    height: 20%;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
 }
 
 .profile-pic {
@@ -84,20 +104,6 @@ body {
     background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/* #myVideo {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  max-height: 100vh;
-  max-width: 100vw;
-  right: 0;
-  bottom: 0;
-  min-width: 100vh;
-  min-height: 100vw;
-  z-index: 5;
-  opacity: 0.5;
-} */
-
 header {
     height: 100vh;
     color: var(--color-white);
@@ -131,6 +137,12 @@ a {
     background-color: var(--color-primary);
 } */
 
+h1 {
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
 .sec1 {
     background: #485563;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
@@ -141,11 +153,12 @@ a {
 }
 
 .sec2 {
+
     background-color: white;
+    color: black;
     min-height: 100vh;
     width: 100%;
     margin: 0 auto;
-
 }
 
 .sec3 {
@@ -158,13 +171,11 @@ a {
 }
 
 .sec4 {
-    background: #D3CCE3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: white;
+    color: black;
     min-height: 100vh;
     width: 100%;
     margin: 0 auto;
-
 }
 
 .sec5 {
@@ -217,6 +228,10 @@ button {
     font-family: 'Noto Sans Mono', sans-serif;
     box-shadow: var(--box-shadow-1);
     opacity: 0.7;
+}
+
+button:hover {
+    background-color: #c1837c;
 }
 
 .active-btn {
