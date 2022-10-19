@@ -10,35 +10,67 @@
 </head>
 <body class="main-content">
     <header class="section sec1 header active" id="home">
+        <nav id="top-nav">
+        <a href="https://github.com/crollo1">
+            <button class="github"><svg id="top-nav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg></button>
+        </a>
+        <a href="">
+            <button class="email" id="top-nav2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></button>
+        </a>
+        <a href="https://www.linkedin.com/in/craigrolleston/">
+            <button class="linkedin" id="top-nav3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></button>
+        </a>
+        </nav>
         <div class="intro-info">
             <h1>CRAIG ROLLESTON</h1>
             <img class="profile-pic" src="./img/profile-img.png" alt="">
             <h2>FULL STACK DEVELOPER</h2>
             <h3>CURRENTLY FOR HIRE</h3>
+            <!-- <video autoplay muted loop id="myVideo">
+                <source src="./img/video.mp4" class="intro-video" type="video/mp4">
+            </video> -->
         </div>
+        <!-- <div class="computer-img">
+            <img src="/img/computer.jpg" alt="">
+        </div> -->
     </header>
     <main>
         <section class="section sec2 about" id="about"></section>
         <section class="section sec3 projects" id="projects"></section>
-        <section class="section sec4 courses" id="courses"></section>
+        <section class="section sec4 skills" id="skills"></section>
         <section class="section sec5 contact" id="contact"></section>
     </main>
     
     <div class="controls">
-        <div>
-            <button class="control control-1 active-btn" data-id="home">Home</button>
+        <div> 
+            <a href="#home">
+                <button class="control control-1 active-btn" data-id="home">Home</button>
+            </a>
         </div>
         <div>
-            <button class="control control-2 " data-id="about">About</button>
+            <a href="#about">
+                <button class="control control-2 " data-id="about">About</button>
+            </a>
         </div>
         <div>
-            <button class="control control-3" data-id="projects">Projects</button>
+            <a href="#projects">
+                <button class="control control-3" data-id="projects">Projects</button>
+            </a>
         </div>
         <div>
-            <button class="control control-4" data-id="courses">Courses</button>
+            <a href="#skills">
+                <button class="control control-4" data-id="courses">Skills</button>
+            </a>
         </div>
         <div>
-            <button class="control control-5" data-id="contact">Contact</button>
+            <a href="#contact">
+                <button class="control control-5" data-id="contact">Contact</button>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.canva.com/design/DAFMcjEFPo8/8R5sU1E0gUAZSYC6GrVj-g/view?utm_content=DAFMcjEFPo8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+                <button class="control control-6" data-id="contact">Resume</button>
+            </a>
         </div>
     </div>
     
