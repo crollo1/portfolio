@@ -19,6 +19,7 @@ h3 {
 
 #top-nav button:hover {
     background-color: #efa69d;
+    transform: scale(1.2);
 }
 
 #top-nav button {
@@ -62,6 +63,10 @@ h3 {
     font-family: 'Nunito', sans-serif;
 }
 
+#get-to-know-me:hover {
+    transform: scale(1.2);
+}
+
 .profile-pic {
     max-width: 30%;
     max-height: 30s;
@@ -70,6 +75,13 @@ h3 {
 
 #home {
     /* background-image: url("../img/computer.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+#about {
+    background-image: url("../img/skiing.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.7;
@@ -152,8 +164,8 @@ h1 {
     margin-left: 30px;
     margin-top: 0px;
     padding-top: 30px;
-    font-size: 3vh;
-    font-size: 3vw;
+    font-size: 4vh;
+    font-size: 4vw;
 }
 
 .sec1 {
@@ -167,7 +179,7 @@ h1 {
 
 .sec2 {
 
-    background-color: var(--color-grey-1);
+    background-color: #f7f7f7;
     color: black;
     min-height: 100vh;
     width: 100%;
@@ -175,9 +187,9 @@ h1 {
 }
 
 .sec3 {
-    background: #485563; 
-    background: -webkit-linear-gradient(to right, #29323c, #485563);  
-    background: linear-gradient(to right, #29323c, #485563);
+    background: #27bfd8; 
+    /* background: -webkit-linear-gradient(to right, #29323c, #485563);  
+    background: linear-gradient(to right, #29323c, #485563); */
     min-height: 100vh;
     width: 100%;
     margin: 0 auto;
@@ -271,10 +283,14 @@ button:hover {
 
 #skill-icons {
     text-align: center;
-    margin: 15px;
+    margin: 20px;
     /* text-align: center; */
     /* display: flex; */
     align-items: center;
     justify-content: center;
-    top: 50%;
+    top: 50vh;
+    box-shadow: var(--box-shadow-1);
+    border-radius: 40px;
+    background-color: #f7f7f7;
+
 }
