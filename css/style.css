@@ -84,7 +84,7 @@ h3 {
     background-image: url("../img/skiing.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 #myVideo {
@@ -163,6 +163,7 @@ a {
 h1 {
     margin-left: 30px;
     margin-top: 0px;
+    margin-bottom: 0;
     padding-top: 30px;
     font-size: 4vh;
     font-size: 4vw;
@@ -212,6 +213,7 @@ h1 {
     width: 100%;
     margin: 0 auto;
 }
+
 
 .active {
     display: block;
@@ -282,15 +284,32 @@ button:hover {
 }
 
 #skill-icons {
+
     text-align: center;
-    margin: 20px;
-    /* text-align: center; */
-    /* display: flex; */
+    margin: 50px;
+    /* max-width: 80vw; */
+    /* display: grid; */
     align-items: center;
-    justify-content: center;
-    top: 50vh;
+    /* justify-content: center; */
+    /* left: 50%; */
     box-shadow: var(--box-shadow-1);
     border-radius: 40px;
     background-color: #f7f7f7;
-
 }
+
+#paragraph_section-about__paragraph {
+    margin: 10px 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    max-width: 50%;
+    opacity: 1 !important;
+}
+
+.heading-4.heading-4--dark {
+    margin: 20px 20px 10px 20px;
+    font-weight: bold;
+}
+
+.btn-text {
+    color: rgb(20, 210, 239);
+} 
