@@ -171,7 +171,62 @@
         </section>
 
         <section class="section sec5 contact" id="contact"><h1 id="contact-h1">CONTACT</h1>
-            <form onsubmit="submitContact(this.elements); return false;" class="contact-form">
+            <div class="contact-container">
+                <div class="contact-content-con">
+                    <div class="left-contact">
+
+                        <form action="" class="contact-form">
+                            <div class="input-control">
+                                <input type="text" required placeholder="FULL NAME">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="5" required placeholder="MESSAGE"></textarea>
+                            </div>
+                            <div class="send-btn">
+                                <a href="#" class="send-btn">
+                                    <button class="send-btn">SEND
+                                    <i class="fa-solid fa-arrow-turn-down-right"></i> 
+                                    </button> 
+                                </a>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="right-contact">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <a target="_blank" href="https://www.linkedin.com/in/craigrolleston/">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                        <p class="contact-text">LinkedIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <a target="_blank" href="https://github.com/crollo1">
+                                        <i class="fa-brands fa-github"></i>
+                                        <p class="contact-text">Github</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <a target="_blank" href="https://www.google.com/maps/place/Sunshine+Coast+QLD/@-26.6064139,152.9340725,11z/data=!3m1!4b1!4m5!3m4!1s0x6b937fb66d7d48ed:0x302a35af3deaf50!8m2!3d-26.65!4d153.066667">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <p class="contact-text"> Sunshine Coast</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- <form onsubmit="submitContact(this.elements); return false;" class="contact-form">
                 <div class="contact-form__group">
                   <input type="text" class="contact-form__input" id="name" onblur="checkInput(this)" required>
                   <label class="contact-form__label" for="name">Full Name</label>
@@ -187,13 +242,21 @@
                 <div class="progress-button-wrapper">
                   <div class="progress-button">
                     <button id="sendContactBtn" class="btn contact-form__btn btn--green"><span>Send <span class="btn--right-arrow">&rarr;</span></span></button>
-                    &nbsp;
-            <nav id="contact-click">
-                <button id="contact-click">GITHUB</button>
-                <button id="contact-click">EMAIL</button>
-                <button id="contact-click">LINKEDIN</button>
-            </nav>
+                    &nbsp; 
+            </form> -->
+            <!-- <nav id="contact-click">
+                <a target="_blank" href="https://github.com/crollo1">
+                    <button id="contact-click">GITHUB</button>
+                </a>
+                <a id="emailLink" href="mailto: craig.rolleston@gmail.com">
+                    <button id="contact-click">EMAIL</button>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/craigrolleston/">
+                    <button id="contact-click">LINKEDIN</button>
+                </a>
+            </nav> -->
         </section>
+
         <footer class="footer">
             <p class="copyright">
               &copy; 2022 Craig Rolleston
