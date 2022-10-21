@@ -173,6 +173,7 @@ h1 {
 }
 
 .sec3 {
+    position: relative;
     background: #0F2027;  
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
@@ -314,9 +315,13 @@ footer {
 }
 
 #project-cards {
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    top: 50%;
     margin: 20px auto;
     text-align: center;
-    max-width: 100%;
+    width: 100vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -364,7 +369,7 @@ ul {
     background: linear-gradient(to right, #BE5869, #403A3E); 
     opacity: 0.7;
     max-width: 60%;
-    margin: 0 0 0 40%;
+    margin: 0 0 0 35%;
     padding: 10px;
     border-radius: 5px 0 0 5px;
     box-shadow: var(--box-shadow-1);
@@ -437,11 +442,12 @@ ul {
     flex: 3;
     margin-left: 3rem;
     text-align: center;
+    padding-top: 1.5rem;
 }
 
 .icon {
-    padding: 1rem;
-    margin: 2rem;
+    padding-top: 1rem;
+    margin: 1rem;
 }
 
 .icon:hover {
@@ -449,12 +455,12 @@ ul {
     transform: scale(1.1);   
 }
 
-.fa-solid.fa-location-dot, .fa-brands.fa-linkedin-in, .fa-brands.fa-github {
-    font-size: 4rem;
+.fa-solid.fa-envelope, .fa-solid.fa-location-dot, .fa-brands.fa-linkedin-in, .fa-brands.fa-github {
+    font-size: 3rem;
 }
 
 .contact-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 0;
 }
 
