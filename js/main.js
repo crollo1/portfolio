@@ -44,8 +44,14 @@
                 element.classList.add('active');
             }
 
+
+
         })
         
+    
+        // icon.addEventListener('mouseover', (e) => {
+        //     icon.innerText = 'Have'
+        // })
     
     }
    

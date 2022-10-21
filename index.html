@@ -162,11 +162,29 @@
                 <img id="icon" src="./img/heroku.png" alt="">
                 <img id="icon" src="./img/netlify.png" alt="">
             </div>
+
+            <script>
+                function changeText(obj, text){
+                    obj.innerText = text;
+                }
+            </script>
+
             <p class="skills-text1">
-                CSS3, JAVASCRIPT, HTML5, NODE.JS, REACT, VUE.JS
+               <span onmouseover="changeText(this, '.YOU')" onmouseout="changeText(this, 'CSS3')"> CSS3</span>,
+               <span onmouseover="changeText(this, '...ARE...   ')" onmouseout="changeText(this, 'JAVASCRIPT')"> JAVASCRIPT</span>, 
+               <span onmouseover="changeText(this, '.AN..')" onmouseout="changeText(this, 'HTML5')"> HTML5</span>, 
+               <span onmouseover="changeText(this, 'AMAZING')" onmouseout="changeText(this, 'NODE.JS')"> NODE.JS</span>, 
+               <span onmouseover="changeText(this, 'HUMAN')" onmouseout="changeText(this, 'REACT')"> REACT</span>, 
+               <span onmouseover="changeText(this, '...I..')" onmouseout="changeText(this, 'VUE.JS')"> VUE.JS</span>, 
+            
             </p>
             <p class="skills-text2"> 
-                RAILS, RUBY, JQUERY, MONGODB, HEROKU, NETLIFY 
+               <span onmouseover="changeText(this, '.HOPE')" onmouseout="changeText(this, 'RAILS')"> RAILS</span>, 
+               <span onmouseover="changeText(this, '.YOU')" onmouseout="changeText(this, 'RUBY')"> RUBY</span>, 
+               <span onmouseover="changeText(this, '..HAVE')" onmouseout="changeText(this, 'JQUERY')"> JQUERY</span>, 
+               <span onmouseover="changeText(this, '..AN...')" onmouseout="changeText(this, 'MONGODB')"> MONGODB</span>, 
+               <span onmouseover="changeText(this, 'AMAZING')" onmouseout="changeText(this, 'HEROKU')"> HEROKU</span>, 
+               <span onmouseover="changeText(this, 'DAY!!!!')" onmouseout="changeText(this, 'NETLIFY')"> NETLIFY</span>, 
             </p>
         </section>
 
