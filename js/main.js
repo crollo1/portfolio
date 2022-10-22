@@ -47,15 +47,18 @@
 
 
         })
-        
-    
-        // icon.addEventListener('mouseover', (e) => {
-        //     icon.innerText = 'Have'
-        // })
+
     
     }
    
     PageTransitions();
 
+
+    function changeText(obj, text){
+        obj.innerText = text;
+    }
+
 // }); // everything inside the DOM ready callback, unless script tag down at end of <body> tag in HTML
+
+
 

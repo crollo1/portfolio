@@ -31,7 +31,7 @@
         <div class="intro-info">
             <h1 class="name">CRAIG ROLLESTON</h1>
             <img class="profile-pic" src="./img/profile-img.png" alt="">
-            <h2>FULL STACK DEVELOPER</h2>
+            <h2 class="full-stack-dev" >FULL STACK DEVELOPER</h2>
             <h3>CURRENTLY FOR HIRE</h3>
             <button id="get-to-know-me"><a href="#about">GET TO KNOW ME</a></button>
         </div>
@@ -70,7 +70,10 @@
             </div>
         </section>
 
-        <section class="section sec3 projects" id="projects"><h2 id="projects-h2">PROJECTS</h2>
+        <section class="section sec3 projects" id="projects">
+          <div class="section-wrapper">
+
+            <h2 id="projects-h2">PROJECTS</h2>
             <div id="project-cards">
             <!-- PROJECT 1 -->
             <div class="card  card--1">
@@ -144,6 +147,7 @@
                 </div> 
             </div>
    
+          </div>
         </div>
         </section>
 
@@ -162,12 +166,6 @@
                 <img id="icon" src="./img/heroku.png" alt="">
                 <img id="icon" src="./img/netlify.png" alt="">
             </div>
-
-            <script>
-                function changeText(obj, text){
-                    obj.innerText = text;
-                }
-            </script>
 
             <p class="skills-text1">
                <span onmouseover="changeText(this, '.YOU')" onmouseout="changeText(this, 'CSS3')"> CSS3</span>,
@@ -191,7 +189,7 @@
         <section class="section sec5 contact" id="contact"><h2 id="contact-h2">CONTACT</h2>
             <div class="contact-container">
                 <div class="contact-content-con">
-                    <div class="left-contact">
+                    <!-- <div class="left-contact">
 
                         <form action="" class="contact-form">
                             <div class="input-control">
@@ -212,38 +210,46 @@
                             </div>
                         </form>
 
-                    </div>
+                    </div> -->
                     <div class="right-contact">
                         <div class="contact-info">
                             <div class="contact-item">
                                 <div class="icon">
                                     <a target="_blank" href="mailto: &#099;&#114;&#097;&#105;&#103;&#046;&#114;&#111;&#108;&#108;&#101;&#115;&#116;&#111;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
+                                        <div class="icon-link-wrapper">
                                         <i class="fa-solid fa-envelope"></i>
                                         <p class="contact-text">Email</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <a target="_blank" href="https://www.linkedin.com/in/craigrolleston/">
-                                        <i class="fa-brands fa-linkedin-in"></i>
-                                        <p class="contact-text">LinkedIn</p>
+                                        </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
                                     <a target="_blank" href="https://github.com/crollo1">
+                                        <div class="icon-link-wrapper">
                                         <i class="fa-brands fa-github"></i>
                                         <p class="contact-text">Github</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <a target="_blank" href="https://www.linkedin.com/in/craigrolleston/">
+                                        <div class="icon-link-wrapper">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                        <p class="contact-text">LinkedIn</p>
+                                        </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
                                     <a target="_blank" href="https://www.google.com/maps/place/Sunshine+Coast+QLD/@-26.6064139,152.9340725,11z/data=!3m1!4b1!4m5!3m4!1s0x6b937fb66d7d48ed:0x302a35af3deaf50!8m2!3d-26.65!4d153.066667">
+                                        <div class="icon-link-wrapper">
                                         <i class="fa-solid fa-location-dot"></i>
-                                        <p class="contact-text"> Sunshine Coast</p>
+                                        <p class="contact-text">Location</p>
+                                        </div>
                                     </a>
                                 </div>
                             </div>

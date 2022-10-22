@@ -152,6 +152,10 @@ h2 {
     font-size: 4vw;
 }
 
+.section-wrapper {
+    max-width: 900px;
+}
+
 .sec1 {
     background: #0F2027;  
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
@@ -184,12 +188,13 @@ h2 {
     min-height: 100vh;
     width: 100%;
     margin: 0 auto;
+    border: 1px solid transparent;
 }
 
 
 
 .sec4 {
-    background-color: #cbcec3;
+    background-color:#dbe1e8;
     color: black;
     min-height: 100vh;
     width: 100vw;
@@ -201,11 +206,10 @@ h2 {
 .sec5 {
     background: -webkit-linear-gradient(to left, #514A9D, #24C6DC); 
     background: linear-gradient(to left, #514A9D, #24C6DC);  
-    min-height: 95vh;
+    min-height: 75vh;
     width: 100%;
     margin: 0 auto;
 }
-
 
 .active {
     display: block;
@@ -273,7 +277,9 @@ button:hover {
     align-items: center;
     box-shadow: var(--box-shadow-1);
     border-radius: 40px;
-    background-color: #f7f7f7;
+    background: #74ebd5; 
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
 }
 
 #paragraph_section-about__paragraph {
@@ -305,7 +311,7 @@ footer {
     /* padding-bottom: 30px; */
     font-weight: 600;
     font-size: 1.75rem;
-    color:#005AA7;
+    color:black;
 }
 
 .skills-text2 {
@@ -314,7 +320,7 @@ footer {
     margin-bottom: 0;
     font-weight: 600;
     font-size: 1.75rem;
-    color:#005AA7;
+    color:black;
 
 }
 
@@ -328,6 +334,7 @@ footer {
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: initial;
     align-items: center;
     justify-content: center;
 }
@@ -439,12 +446,11 @@ ul {
 
 .contact-content-con {
     display:flex;
-    padding-top: 3.5rem;
+    padding-top: 1.5rem;
 }
 
 .right-contact {
     flex: 3;
-    margin-left: 3rem;
     text-align: center;
     padding-top: 1.5rem;
 }
@@ -465,7 +471,7 @@ ul {
 
 .contact-text {
     font-size: 1.5rem;
-    margin-top: 0;
+    margin: 0;
 }
 
 .contact-form {
@@ -507,11 +513,20 @@ input, textarea {
  text-align: center;
 }
 
+.icon-link-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: row;
+}
+
 @media screen and (max-width: 600px){
     
     body {
         text-align: center;
     }
+    
     .controls {
         top: auto;
         bottom: 0;
@@ -519,7 +534,7 @@ input, textarea {
         justify-content: center;
         left: 50%;
         transform: translateX(-50%);
-        width: 100%;
+        max-width: 90vw;
     }
 
     .control {
@@ -528,4 +543,75 @@ input, textarea {
         font-size: .7rem;
         margin-bottom: 30px;
     }
+
+    .intro-info {
+        right: 0;
+        max-height: 90vh;
+    }
+
+    .name {
+        max-width: 75vw;
+        margin-top: 0;
+    }
+
+    .profile-pic {
+        max-width: 50vw;
+    }
+
+    .full-stack-dev {
+        padding-right: 10px;
+        padding-top: 40px;
+    }
+
+    #get-to-know-me {
+        width: 70vw;
+    }
+
+    #paragraph_section-about__paragraph {
+        max-width: initial; 
+    }
+
+    #project-cards {
+        grid-template-columns: initial;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 20px;
+        position: relative;
+        transform: initial;
+        top: 0;
+        left: 0;
+        max-width: 80vw;
+    }
+
+    .card__container {
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        margin: 0 auto;
+        font-size: 2rem;
+    }
+
+    .sec3 h2 {
+        padding-bottom: 20px;
+    }
+
+    .icon-link-wrapper {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        max-height: 10vh;
+    }
 }
+
+
+/* 
+ • get hamburger menu rendering on screen
+ (copy html and add correct info)
+ • Javascript (similar from codepen - improve id's) console.log when clicked
+ • document id and query selector
+ • hook up/attach to menu
+ • Put css from codepen in separate css file
+ • adjust so only displays when media query kicks in - hamburger menu to display  under 600px and hide over 600px (within media query)('adding' and 'removing' classes)
+*/
