@@ -7,7 +7,6 @@
     <script src="https://kit.fontawesome.com/2ec4f34285.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <script type="text/javascript" defer src="js/emailObfuscator.js"></script>
     <title>Craig Rolleston - Portfolio</title>
 </head>
 <body class="main-content">
@@ -87,9 +86,9 @@
                             <!-- </div> -->
                             <!-- <div class="card__details"> -->
                                 <h3 class="easy">TAKE IT EASY</h3>
-                            <ul>
-                                <li><strong>Brief:</strong> Build a clone of the popular app Airtasker. One week to build. </li>
-                                <li><strong>Tech:</strong> React + Hooks + Express</li>
+                            <ul class="project-list">
+                                <li class="project-list-item"><strong>Brief:</strong> Build a clone of the popular app Airtasker. One week to build. </li>
+                                <li class="project-list-item"><strong>Tech:</strong> React + Hooks + Express</li>
                             </ul>
                             <a target="_blank" class="code-link" href="https://github.com/crollo1/take-it-easy-frontend">#CODE</a>
                             <a target="_blank" class="demo-link" href="https://take-it-easy.netlify.app/">#DEMO </a>
@@ -111,9 +110,9 @@
                             <!-- </div> -->
                             <!-- <div class="card__details"> -->
                                 <h3 class="wine">WORLD WINE WEB</h3>
-                            <ul>
-                                <li><strong>Brief:</strong> Build a full stack wine merchant app. One week to complete. </li>
-                                <li><strong>Tech:</strong> Ruby on Rails + Heroku </li>
+                            <ul class="project-list">
+                                <li class="project-list-item"><strong>Brief:</strong> Build a full stack wine merchant app. One week to complete. </li>
+                                <li class="project-list-item"><strong>Tech:</strong> Ruby on Rails + Heroku </li>
                             </ul>
                             <a target="_blank" class="code-link" href="https://github.com/crollo1/world-wine-web">#CODE</a>
                             <a target="_blank" class="demo-link" href="https://world-wine-web.herokuapp.com/">#DEMO</a>
@@ -134,9 +133,9 @@
                                 &nbsp;
                                 <!-- <div class="card__details"> -->
                                 <h3 class="critter">DIGI CRITTER</h3>
-                                    <ul>
-                                        <li><strong>Brief:</strong> Create an interactive companion browser extension - group project.</li>
-                                        <li><strong>Tech:</strong> React + Rails + Netlify</li>
+                                    <ul class="project-list">
+                                        <li class="project-list-item"><strong>Brief:</strong> Create an interactive companion browser extension - group project.</li>
+                                        <li class="project-list-item"><strong>Tech:</strong> React + Rails + Netlify</li>
                                     </ul>
                                     <a target="_blank" class="code-link" href="https://github.com/crollo1/digi-me-react-frontend">#CODE</a>
                                     <a target="_blank" class="demo-link" href="https://digi-critter.netlify.app/">#DEMO</a>
@@ -179,7 +178,7 @@
             <p class="skills-text2"> 
                <span onmouseover="changeText(this, '.HOPE')" onmouseout="changeText(this, 'RAILS')"> RAILS</span>, 
                <span onmouseover="changeText(this, '.YOU')" onmouseout="changeText(this, 'RUBY')"> RUBY</span>, 
-               <span onmouseover="changeText(this, '..HAVE')" onmouseout="changeText(this, 'JQUERY')"> JQUERY</span>, 
+               <span onmouseover="changeText(this, '.HAVE.')" onmouseout="changeText(this, 'JQUERY')"> JQUERY</span>, 
                <span onmouseover="changeText(this, '..AN...')" onmouseout="changeText(this, 'MONGODB')"> MONGODB</span>, 
                <span onmouseover="changeText(this, 'AMAZING')" onmouseout="changeText(this, 'HEROKU')"> HEROKU</span>, 
                <span onmouseover="changeText(this, 'DAY!!!!')" onmouseout="changeText(this, 'NETLIFY')"> NETLIFY</span>, 
@@ -225,20 +224,20 @@
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
-                                    <a target="_blank" href="https://github.com/crollo1">
+                                    <a target="_blank" href="https://www.linkedin.com/in/craigrolleston/">
                                         <div class="icon-link-wrapper">
-                                        <i class="fa-brands fa-github"></i>
-                                        <p class="contact-text">Github</p>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                        <p class="contact-text">LinkedIn</p>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
-                                    <a target="_blank" href="https://www.linkedin.com/in/craigrolleston/">
+                                    <a target="_blank" href="https://github.com/crollo1">
                                         <div class="icon-link-wrapper">
-                                        <i class="fa-brands fa-linkedin-in"></i>
-                                        <p class="contact-text">LinkedIn</p>
+                                        <i class="fa-brands fa-github"></i>
+                                        <p class="contact-text">Github</p>
                                         </div>
                                     </a>
                                 </div>
@@ -267,40 +266,55 @@
         </footer>
     </main>
     
-    <div class="controls">
+    
+    <!-- <div>home</div>
+    <div>about</div>
+    <div>projects</div> -->
+</div>
+<div class="controls">
+        <label for="check">
+            <input type="checkbox" id="check"/> 
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        <div id="menu">
          <!-- ul and li's -->
-        <div> 
-            <a href="#home">
-                <button class="control control-1 " data-id="home">Home</button>
-            </a>
-        </div>
-        <div>
-            <a href="#about">
-                <button class="control control-2 " data-id="about">About</button>
-            </a>
-        </div>
-        <div>
-            <a href="#projects">
-                <button class="control control-3" data-id="projects">Projects</button>
-            </a>
-        </div>
-        <div>
-            <a href="#skills">
-                <button class="control control-4" data-id="courses">Skills</button>
-            </a>
-        </div>
-        <div>
-            <a href="#contact">
-                <button class="control control-5" data-id="contact">Contact</button>
-            </a>
-        </div>
-        <div>
-            <a target="_blank" href="https://www.canva.com/design/DAFMcjEFPo8/8R5sU1E0gUAZSYC6GrVj-g/view?utm_content=DAFMcjEFPo8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
-                <button class="control control-6" data-id="contact">Resume</button>
-            </a>
+            <ul> 
+            <li> 
+                <a href="#home">
+                    <button class="control control-1 " data-id="home">Home</button>
+                </a>
+            </li>
+            <li>
+                <a href="#about">
+                    <button class="control control-2 " data-id="about">About</button>
+                </a>
+            </li>
+            <li>
+                <a href="#projects">
+                    <button class="control control-3" data-id="projects">Projects</button>
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    <button class="control control-4" data-id="courses">Skills</button>
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                    <button class="control control-5" data-id="contact">Contact</button>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.canva.com/design/DAFMcjEFPo8/8R5sU1E0gUAZSYC6GrVj-g/view?utm_content=DAFMcjEFPo8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+                    <button class="control control-6" data-id="contact">Resume</button>
+                </a>
+            </li>
+            </ul>
         </div>
     </div>
     
-    <script src="./js/main.js"></script>
+   <script src="./js/main.js"></script>
 </body>
 </html>
