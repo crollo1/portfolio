@@ -8,6 +8,7 @@
     const allSections = document.querySelector('.main-content');
 
     
+    //? Below initially used for page transitions - preferred the smooth scroll to adding section
     // function PageTransitions(){
 
     //     // sections Active class
@@ -44,28 +45,31 @@
 
     // changeText();
 
-    // reveal skill-icons when scrolling to section
+    // TODO: reveal skill-icons when scrolling to section
     
-    const reveal = function(){
-        let reveals = document.querySelectorAll('#skill-icons');
+    // const reveal = function(){
+    //     let reveals = document.querySelectorAll('#skill-icons');
         
-        for (let i = 0; i < reveals.length; i++) {
+    //     for (let i = 0; i < reveals.length; i++) {
             
-            let windowHeight = window.innerHeight;
-            let revealTop = reveals[i].getBoundingClientRect().top;
-            let revealPoint = 150;
+    //         let windowHeight = window.innerHeight;
+    //         let revealTop = reveals[i].getBoundingClientRect().top;
+    //         let revealPoint = 150;
             
-            if( revealTop < windowHeight - revealPoint){
-                reveals[i].classList.add('actives');
-            } else {
-                reveals[i].classList.remove('actives');
-            }
+    //         if( revealTop < windowHeight - revealPoint){
+    //             reveals[i].classList.add('actives');
+    //         } else {
+    //             reveals[i].classList.remove('actives');
+    //         }
             
-        }
-    }
+    //     }
+    // }
     
-    window.addEventListener('scroll', reveal);
-    reveal();
+    // window.addEventListener('scroll', reveal);
+    // reveal();
+    
+
+    //***** below is the function for hamburger menu *****/
 
     const hamburgerMenu = document.querySelector('#menu-select')
 
