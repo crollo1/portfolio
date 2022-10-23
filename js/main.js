@@ -67,7 +67,7 @@
     window.addEventListener('scroll', reveal);
     reveal();
 
-    const hamburgerMenu = document.querySelector('.controls')
+    const hamburgerMenu = document.querySelector('#menu-select')
 
     hamburgerMenu.addEventListener('click', function(event){
             
