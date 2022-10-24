@@ -188,7 +188,10 @@ h2 {
     position: relative;
     /* background: #131314; */
     background: #11222a; 
-
+    background-image: url("../img/star-gazing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
     /* background: #0F2027;  
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
