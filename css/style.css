@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-@import './style.scss';
 
 html {
     margin: 0;
@@ -145,7 +144,6 @@ a {
     font-family: inherit;
 }
 
-
 h2 {
     margin-left: 30px;
     margin-top: 0px;
@@ -194,8 +192,6 @@ h2 {
     border: 1px solid transparent;
 }
 
-
-
 .sec4 {
     background-color:#dbe1e8;
     color: black;
@@ -228,6 +224,26 @@ h2 {
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
+    background: transparent;
+    pointer-events: none;
+}
+
+.controls-background {
+    /* background: linear-gradient(to left, #514A9D, #24C6DC); */
+    pointer-events: all;  
+}
+
+#menu, .controls label {
+    pointer-events: all;  
+}
+
+.control {
+    width: 200px;
+    padding: 15px;
+}
+
+ul {
+    padding-left: 0;
 }
 
 li {
@@ -247,7 +263,7 @@ button {
     justify-content: center;
     align-items: center;
     font-family: 'Noto Sans Mono', sans-serif;
-    font-size: 90%;
+    /* font-size: 90%; */
     box-shadow: var(--box-shadow-1);
     opacity: 0.8;
 }
@@ -594,50 +610,45 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
         text-align: center;
     }
     
-    button {
-        width: 100%;
+    .control {
+        width: 200px;
+        padding: 15px;
+        margin: .5rem;
+        font-size: 100%;
+        margin-bottom: 30px;
+        max-width: initial;
     }
     
     .controls {
-        top: auto;
-        bottom: 20px;
+        bottom: 0;
         flex-direction: row;
         justify-content: center;
         right: 0;
-        transform: translateX(-50%);
-        max-width: 90vw;
+        width: 100vw;
         flex-direction: column;
-        top: -120px;
+        top: 0;
         right: 0;
+        align-items: center;
+        transform: initial; 
+    }
+
+    .controls-background {
+        background: linear-gradient(to left, #514A9D, #24C6DC);  
     }
 
     ul {
         padding-left: 0;
     }
 
-    .control {
-        margin: .5rem;
-        width: 100%;
-        font-size: 90%;
-        margin-bottom: 30px;
-        max-width: initial;
-    }
-
     .intro-info {
         right: 0;
-        /* max-width: initial;  */
     }
 
     .sec1 {
         max-height: 100vh;
     }
 
-    /* .sec5 {
-        max-height: 100vh;
-    } */
-
     .name {
-        /* max-width: 75vw; */
         font-size: 2.25rem;
         margin-top: 0;
         text-align: center;
@@ -698,6 +709,11 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
     .footer {
         max-height: 10vh;
     }
+
+    #top-nav button {
+        margin: 15px ;
+    }
+
 }
 
 
