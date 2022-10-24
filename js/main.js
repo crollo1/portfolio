@@ -50,6 +50,7 @@
     // event.target.textContent
     // use same logic for event listener, but on buttons - use bubble up so any element in menu runs the function 
 
+    
     // TODO: reveal skill-icons when scrolling to section
     
     // const reveal = function(){
