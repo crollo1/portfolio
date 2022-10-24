@@ -98,7 +98,7 @@ label {
 #myVideo {
     opacity: 0.7; 
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 90vh;
 } 
 
 #myVideo2 {
@@ -216,9 +216,6 @@ h2 {
     background: #0F2027;  
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    /* background: #000428; 
-    background: -webkit-linear-gradient(to right, #004e92, #000428); 
-    background: linear-gradient(to right, #004e92, #000428);  */
     min-height: 60vh;
     width: 100%;
     margin: 0 auto;
@@ -627,7 +624,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         right: 0;
         width: 100vw;
         flex-direction: column;
-        top: -50px;
+        top: 0;
         right: 0;
         align-items: center;
         transform: initial; 
