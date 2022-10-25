@@ -18,25 +18,29 @@ label {
 }
 
 #top-nav {
-    display: inline-block !important;
+    height: 70px;
+    align-items: center;
 }
 
-#top-nav button:hover {
-    background-color: #efa69d;
+#top-nav-icon:hover {
+    color: #efa69d;
     transform: scale(1.2);
 }
 
-#top-nav button {
-    /* position:absolute; */
-    /* display: inline-block !important; */
-    height: 35px;
-    width: 35px;
-    margin-left: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: white;
+#top-nav-icon {
+    /* height: 10px;
+    width: 10px; */
     opacity: 1;
+    margin: 0 auto;
+    padding: 15px;
+    top: 50%;
+    bottom: 50%; 
 }
+
+/* .fa-solid.fa-envelope, .fa-brands.fa-linkedin-in, .fa-brands.fa-github {
+    height: 10px;
+    width: 10px;
+} */
 
 .intro-info {
     position: relative;
@@ -174,9 +178,6 @@ h2 {
     background: #0F2027;  
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
-    /* background: #24C6DC;  
-    background: -webkit-linear-gradient(to left, #514A9D, #24C6DC); 
-    background: linear-gradient(to left, #514A9D, #24C6DC);  */
     min-height: 100vh;
     width: 100%;
     margin: 0 auto;
@@ -199,9 +200,6 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1;
-    /* background: #0F2027;  
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
     min-height: 100vh;
     width: 100%;
     margin: 0 auto;
