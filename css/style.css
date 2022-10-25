@@ -631,7 +631,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         right: 0;
         width: 100vw;
         flex-direction: column;
-        top: 50px;
+        top: 100px;
         right: 0;
         align-items: center;
         transform: initial; 
@@ -647,7 +647,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 
     .intro-info {
         left: 0;
-        top: -350px;
+        top: -300px;
     }
 
     .sec1 {
