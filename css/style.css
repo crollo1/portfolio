@@ -632,7 +632,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         width: 100vw;
         height: 100vh;
         flex-direction: column;
-        top: 50px;
+        top: 75px;
         right: 0;
         align-items: center;
         transform: initial; 
