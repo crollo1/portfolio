@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&display=swap');
 
 html {
     margin: 0;
@@ -60,7 +61,7 @@ label {
 }
 
 .name {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 #get-to-know-me {
@@ -69,7 +70,7 @@ label {
     width: 30%;
     height: 20%;
     font-size: 1.5rem;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
 
 #get-to-know-me:hover {
@@ -94,7 +95,7 @@ label {
 }
 
 #about {
-    background-image: url("../img/skiing.jpeg");
+    background-image: url("../img/about-me-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.9;
@@ -137,7 +138,7 @@ label {
 
 body {
     margin: 0;
-    font-family: 'Noto Sans Mono', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     color: var(--color-white);
     transition: all .4s ease-in-out;
@@ -194,9 +195,10 @@ h2 {
 
 .sec3 {
     position: relative;
+    color: black;
     /* background: #131314; */
     background: #11222a; 
-    background-image: url("../img/star-gazing.jpg");
+    background-image: url("../img/imattsmart-kigHD-rVJzA-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1;
@@ -207,8 +209,11 @@ h2 {
 }
 
 .sec4 {
-    background-color:#dbe1e8;
-    color: black;
+    /* background-color:#dbe1e8; */
+    background-image: url("../img/harli-marten-n7a2OJDSZns-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
     min-height: 100vh;
     width: 100vw;
     margin: 0 auto;
@@ -278,7 +283,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Noto Sans Mono', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* font-size: 90%; */
     box-shadow: var(--box-shadow-1);
     opacity: 0.8;
@@ -316,15 +321,16 @@ button:hover {
     align-items: center;
     box-shadow: var(--box-shadow-1);
     border-radius: 40px;
-    background: #74ebd5; 
+    background: white;
+    /* background: #74ebd5; 
     background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  
-    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); */
 }
 
 
 #paragraph_section-about__paragraph {
     margin: 10px 30px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-weight: 500;
     max-width: 50%;
     opacity: 1 !important;
@@ -337,7 +343,7 @@ button:hover {
 }
 
 .btn-text {
-    color: rgb(32, 195, 220);
+    color: white;
 } 
 
 
@@ -350,7 +356,7 @@ footer {
     padding-top: 30px;
     font-weight: 600;
     font-size: 1.75rem;
-    color:black;
+    color:white;
 }
 
 .skills-text2 {
@@ -359,7 +365,7 @@ footer {
     margin-bottom: 0;
     font-weight: 600;
     font-size: 1.75rem;
-    color:black;
+    color:white;
 }
 
 #project-cards {
@@ -386,7 +392,8 @@ footer {
     padding: 0;
     color: black;
     background-color: var(--color-grey-1);
-    box-shadow: var(--color-grey-0);
+    /* box-shadow: var(--color-grey-0); */
+    box-shadow: 0 4px 8px grey;
     border: 2px solid #dbe1e8;
 }
 
