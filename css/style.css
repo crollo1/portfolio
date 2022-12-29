@@ -391,7 +391,7 @@ footer {
     text-align: center;
     padding: 0;
     color: black;
-    background-color: var(--color-grey-1);
+    background-color: white;
     /* box-shadow: var(--color-grey-0); */
     box-shadow: 0 4px 8px grey;
     border: 2px solid #dbe1e8;
