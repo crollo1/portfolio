@@ -62,7 +62,8 @@ label {
 }
 
 .name {
-    font-size: 3.5rem;
+    font-size: 3.6rem;
+    padding-top: 100px;
 }
 
 #get-to-know-me {
@@ -169,7 +170,7 @@ h2 {
     margin-bottom: 0;
     padding-top: 20px;
     font-size: 4vh;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 .section-wrapper {
@@ -669,6 +670,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         font-size: 2.25rem;
         margin-top: 0;
         text-align: center;
+        padding-top: 0px;
     }
 
     .profile-pic {
