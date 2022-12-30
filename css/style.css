@@ -35,7 +35,8 @@ label {
     margin: 0 auto;
     padding: 15px;
     top: 50%;
-    bottom: 50%; 
+    bottom: 50%;
+    color: white; 
 }
 
 /* .fa-solid.fa-envelope, .fa-brands.fa-linkedin-in, .fa-brands.fa-github {
@@ -176,9 +177,11 @@ h2 {
 }
 
 .sec1 {
-    background: #0F2027;  
+    /* background: #0F2027;  
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
+    /* background: var(--color-white); */
+    background: #8dd7f4;
     min-height: 100vh;
     width: 100%;
     margin: 0 auto;
@@ -284,7 +287,7 @@ button {
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    /* font-size: 90%; */
+    font-size: 1.25rem;
     box-shadow: var(--box-shadow-1);
     opacity: 0.8;
 }
