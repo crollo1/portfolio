@@ -230,7 +230,7 @@ h2 {
     background: #0F2027;  
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    min-height: 70vh;
+    min-height: 80vh;
     width: 100%;
     margin: 0 auto;
 }
