@@ -8,8 +8,9 @@
     const allSections = document.querySelector('.main-content');
 
     // change text for message in skills section
-    function changeText(obj, text){
+    function changeText(obj, text, color){
         obj.innerText = text;
+        obj.style.color = color;
     }
     // changeText();
 
