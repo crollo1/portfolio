@@ -54,7 +54,7 @@ label {
 
 .name {
     font-size: 3.6rem;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 #get-to-know-me {
@@ -157,9 +157,10 @@ a {
 
 h2 {
     margin-left: 30px;
-    margin-top: 0px;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 4vh;
     font-size: 3.5vw;
 }
