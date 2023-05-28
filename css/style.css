@@ -74,6 +74,7 @@ label {
     max-width: 30%;
     max-height: 30s;
     border-radius: 50%;
+    border: 3px solid white;
 }
 
 #home {
@@ -155,10 +156,20 @@ a {
     font-family: inherit;
 }
 
-h2 {
+.full-stack-dev {
     margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 4vh;
+    font-size: 3.5vw;
+}
+
+h2 {
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 4vh;
