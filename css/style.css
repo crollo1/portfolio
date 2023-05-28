@@ -697,7 +697,8 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     }
 
     #get-to-know-me {
-        width: 70vw;
+        width: 65vw;
+        font-size: 100%;
     }
 
     #paragraph_section-about__paragraph {
