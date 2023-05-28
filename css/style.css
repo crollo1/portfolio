@@ -65,6 +65,7 @@ label {
     height: 20%;
     font-size: 1.5rem;
     font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
 }
 
 #get-to-know-me:hover {
