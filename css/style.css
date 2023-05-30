@@ -646,10 +646,10 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         flex-direction: row;
         justify-content: center;
         right: 0;
-        width: 100vw;
-        height: 100vh;
+        width: 100dvw;
+        height: 100dvh;
         flex-direction: column;
-        top: 75px;
+        top: 100px;
         right: 0;
         align-items: center;
         transform: initial; 
@@ -670,22 +670,24 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 
     .intro-info {
         left: 0;
-        top: -300px;
+        top: -250px;
+        height: 90dvh;
     }
 
     .sec1 {
-        max-height: 100vh;
+        max-height: 100dvh;
     }
 
     .name {
-        font-size: 2.25rem;
+        font-size: 2rem;
         margin-top: 0;
+        margin-bottom: 30px;
         text-align: center;
         padding-top: 0px;
     }
 
     .profile-pic {
-        max-width: 50vw;
+        max-width: 45vw;
     }
 
     .full-stack-dev {
@@ -693,12 +695,14 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         margin: 0 auto;
         padding-top: 40px;
         padding-bottom: 20px;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     #get-to-know-me {
         width: 65vw;
+        height: 7.5vh;
         font-size: 100%;
+        margin-bottom: 20px;
     }
 
     #paragraph_section-about__paragraph {
