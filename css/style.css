@@ -647,7 +647,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         justify-content: center;
         right: 0;
         width: 100dvw;
-        height: 100dvh;
+        height: 90dvh;
         flex-direction: column;
         top: 150px;
         right: 0;
