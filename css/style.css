@@ -639,6 +639,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         font-size: 100%;
         margin-bottom: 30px;
         max-width: initial;
+        /* height: 100dvh; */
     }
     
     .controls {
@@ -647,7 +648,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         justify-content: center;
         right: 0;
         width: 100dvw;
-        height: 90dvh;
+        height: 100dvh;
         flex-direction: column;
         top: 150px;
         right: 0;
@@ -660,7 +661,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         background: #0082c8;  
         background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
         background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
-        height: 100vh; 
+        height: 100dvh; 
         top: 0;
     }
 
