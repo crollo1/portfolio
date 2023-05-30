@@ -649,7 +649,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         width: 100dvw;
         height: 100dvh;
         flex-direction: column;
-        top: 100px;
+        top: 150px;
         right: 0;
         align-items: center;
         transform: initial; 
@@ -675,7 +675,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     }
 
     .sec1 {
-        max-height: 100dvh;
+        max-height: 90dvh;
     }
 
     .name {
