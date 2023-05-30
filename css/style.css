@@ -639,7 +639,6 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         font-size: 100%;
         margin-bottom: 30px;
         max-width: initial;
-        /* height: 100dvh; */
     }
     
     .controls {
@@ -663,6 +662,10 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
         height: 100dvh; 
         top: 0;
+    }
+    
+    #menu {
+        height: 80dvh;
     }
 
     ul {
