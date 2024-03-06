@@ -697,7 +697,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     }
 
     .profile-pic {
-        max-width: 50vw;
+        max-width: 40vw;
     }
 
     .full-stack-dev {
