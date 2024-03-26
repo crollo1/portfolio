@@ -41,7 +41,7 @@ label {
 .intro-info {
     position: relative;
     z-index: 10;
-    top: -450px;
+    top: -425px;
     max-width: 600px;
     margin: 0 auto;
     display: flex;
@@ -56,6 +56,7 @@ label {
 .name {
     font-size: 3.6rem;
     padding-top: 150px;
+    margin-bottom: 20px;
 }
 
 #get-to-know-me {
