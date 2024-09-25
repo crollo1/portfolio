@@ -722,8 +722,10 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     padding-top: 0px;
   }
 
-  .profile-pic {
-    max-width: 40vw;
+  #profile-pic {
+    min-width: 50vw;
+    /* max-height: 30vh; */
+    border-radius: 50%;
   }
 
   .full-stack-dev {
